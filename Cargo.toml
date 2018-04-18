@@ -1,0 +1,8 @@
+[package]
+authors = ["Markus Stange <mstange@themasta.com>"]
+name = "msvc-demangler-wine-tests"
+version = "0.1.0"
+license = "LGPL-2.1-or-later"
+
+[dependencies]
+msvc-demangler = "0.3.0"
