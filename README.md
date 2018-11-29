@@ -4,5 +4,11 @@ This repository tests the [msvc-demangler](https://crates.io/crates/msvc-demangl
 The tests' license is incompatible with the license of the msvc-demangler repo,
 which is why these tests live in a separate repository.
 
-Some of the tests are still failing. They've also been adjusted to not expect things
-like `__thiscall`, `__ptr64` etc. which msvc-demangler doesn't support yet.
+Some tests are commented out because msvc-demangler doesn't pass them yet. They
+have been annotated with the reason why they're failing.
+
+Run tests using
+
+```bash
+$ cargo test
+```
